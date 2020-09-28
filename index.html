@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leno</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap" rel="stylesheet"> 
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    
+
+
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    
+   
+<section id="main_body">
+    <div class="container">
+        <h1>MOBILE APP FOR <span id="js-rotating">designer, DEVELOPERS, MARKETERS, demo1, Demo2, Demo3, Demo4, Demo5</span> </h1>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+    <!-- JS FILES -->
+    <script src="js/jquery.slim.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/morphext.min.js"></script>
+
+    <script src="js/custom.js"></script>
+
+    <script>
+        $(document).ready(function(){
+
+            // Morphext start
+            $("#js-rotating").Morphext({
+            
+                animation: "fadeIn",
+                
+                separator: ",",
+                
+                speed: 2000,
+                complete: function () {
+                    // Called after the entrance animation is executed.
+                }
+
+            });
+            // Morphext end
+        });
+    </script>
+
+</body>
+</html>
